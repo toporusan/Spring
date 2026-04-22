@@ -4,12 +4,12 @@ public class Test1 {
 
     public static void main(String[] args) {
         Dog dog = new Dog();
-        dog.bark();
+        dog.say();
 
         Pet pet = new Dog();
-        pet.bark();
+        pet.say();
 
         Pet pet2 = new Cat();
-        pet2.bark();
+        pet2.say();
     }
 }

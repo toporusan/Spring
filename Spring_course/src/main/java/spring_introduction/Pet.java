@@ -1,7 +1,7 @@
 package spring_introduction;
 
 public interface Pet {
-    default void bark(){
+    default void say(){
         System.out.println("Вуууууф");
     }
 }

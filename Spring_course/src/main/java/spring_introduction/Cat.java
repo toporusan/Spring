@@ -2,7 +2,7 @@ package spring_introduction;
 
 public class Cat implements Pet {
     @Override
-    public void bark() {
+    public void say() {
         System.out.println("Meow meow!");
     }
 }

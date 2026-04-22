@@ -8,10 +8,8 @@ public class Test2 {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Pet pet = context.getBean("myDog", Pet.class);
-        Pet pet2 = context.getBean("myCat", Pet.class);
-        pet.bark();
-        pet2.bark();
+        Pet pet = context.getBean("Cat", Pet.class);
+        pet.say();
 
         context.close();
     }
